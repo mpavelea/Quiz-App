@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz App</h1>
+      <div id="topicSelection">
+        <label for="topics">Choose a Topic:</label>
+        <select id="topics">
+          <option value="math">Math</option>
+          <option value="biology">Biology</option>
+          <option value="geography">Geography</option>
+          <option value="history">History</option>
+          <option value="chemistry">Chemistry</option>
+        </select>
+        <button id="startQuiz" class="button">Start Quiz</button>
+      </div>
+      <div id="quiz"></div>
+      <div id="result" class="result"></div>
+      <button id="submit" class="button hide">Submit</button>
+      <button id="retry" class="button hide">Retry</button>
+      <button id="showAnswer" class="button hide">Show Answer</button>
+      <button id="goBack" class="button hide">Go Back to Topics</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
